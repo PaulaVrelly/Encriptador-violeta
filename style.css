@@ -7,7 +7,7 @@
 }
 
 header, body{
-    background-image: url("/imagenes/448.jpg");
+    background-image: url("imagenes/448.jpg");
 }
 
 .logo {
@@ -41,7 +41,7 @@ main {
 .mensaje {
     height: 570px;
     background: #34032c;
-    background-image: url("/imagenes/feminism2.png");
+    background-image: url("imagenes/feminism2.png");
     background-repeat: no-repeat;
     background-position: 10px;
     border: none;
