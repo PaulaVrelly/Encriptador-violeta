@@ -1,0 +1,103 @@
+*{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+header, body{
+    background-image: url("/imagenes/448.jpg");
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
+
+.text-area {
+    background-color: #d874cd;
+    height: 350px;
+    border: none;
+    color: #440b4e;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #440b4e;}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 570px;
+    background: #34032c;
+    background-image: url("/imagenes/feminism2.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: none;
+    border-radius: 24px;
+    color: #cd09ac;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background: rgb(52, 3, 44);
+    border: 1px solid #0d070c;
+    border-radius: 24px;
+    color: #cd09ac;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background: #cd09ac;
+    border: 1px solid rgb(52, 3, 44);
+    border-radius: 24px;
+    color:rgb(52, 3, 44);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid #d874cd;
+    border-radius: 24px;
+    color: rgb(52, 3, 44);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 110px;
+    margin-top: 520px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    background: #d874cd;
+    color: rgb(52, 3, 44);
+    font-size: 18px;
+}
+
