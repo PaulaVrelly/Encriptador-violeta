@@ -5,7 +5,7 @@ copia.style.display = "none"
 
 function validarTexto(){
     let textoEscrito = document.querySelector(".text-area").value;
-    let validador = textoEscrito.match(/^[a-z]*$/);
+    let validador = textoEscrito.match(/^[a-z\s]*$/);
     
     if(!validador || validador === 0) {
         alert("Solo son permitidas letras minúsculas y sin acentos")

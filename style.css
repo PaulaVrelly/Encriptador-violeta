@@ -39,7 +39,7 @@ main {
 }
 
 .mensaje {
-    height: 570px;
+    height: 400px;
     background: #34032c;
     background-image: url("imagenes/feminism2.png");
     background-repeat: no-repeat;
@@ -90,14 +90,23 @@ main {
     cursor: pointer;
     height: 67px;
     margin-left: 110px;
-    margin-top: 520px;
+    margin-top: 460px;
     position: absolute;
     width: 336px;
 }
 
 .informacion {
-    background: #d874cd;
     color: rgb(52, 3, 44);
-    font-size: 18px;
+    font-size: 25px;
+    text-align: center;
 }
 
+.copyrigth {
+    font-family: 'Itim';
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(52, 3, 44);
+    height: 40px;
+    padding-top: 20px;
+}
