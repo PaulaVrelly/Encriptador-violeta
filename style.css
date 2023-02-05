@@ -10,7 +10,6 @@
 
 header, body{
     background-image: url("imagenes/448.jpg");
-    position: relative;
 }
 
 .logo {
@@ -23,7 +22,6 @@ main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 180px;
-    position: relative;
 }
 
 .text-area {
@@ -34,7 +32,6 @@ main {
     margin-top: 30px;
     padding: 2px;
     text-transform: lowercase;
-    position: relative;
 }
 
 ::placeholder {color: #440b4e;}
@@ -55,7 +52,7 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: relative;
+    position: fixed;
 }
 
 .mensaje:focus {
@@ -75,7 +72,6 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
-    position: relative;
 }
 
 .btn-desencriptar {
@@ -87,7 +83,6 @@ main {
     height: 67px;
     margin-left: 30px;
     width: 328px;
-    position: relative;
 }
 
 .copiar {
@@ -100,14 +95,12 @@ main {
     margin-top: 460px;
     position: absolute;
     width: 336px;
-    position: relative;
 }
 
 .informacion {
     color: rgb(52, 3, 44);
     font-size: 25px;
     text-align: center;
-    position: relative;
 }
 
 .copyrigth {
@@ -118,11 +111,32 @@ main {
     color: rgb(52, 3, 44);
     height: 40px;
     padding-top: 20px;
-    position: relative;
 }
 
 footer {
     width: 90%;
-    position: relative;
 }
 
+/*@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
