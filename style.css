@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Itim';
     font-weight: 400;
     font-size: 32px;
@@ -109,6 +111,10 @@ main {
     color: rgb(52, 3, 44);
     height: 40px;
     padding-top: 20px;
+}
+
+footer {
+    width: 90%;
 }
 
 @media screen and (max-width: 980px){
